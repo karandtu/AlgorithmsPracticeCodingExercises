@@ -20,3 +20,23 @@ public class BinarySearchAlgorithm {
 			return binarySearch(array, target, middleElement+1, highIndex);
 	    }
 	}
+}
+
+****************************************************SANITY TESTS**********************************************************************************************
+
+package com.karandtu.codelover;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import com.algoexpert.BinarySearchAlgorithm;
+
+public class BinarySearchAlgorithmJunitTests {
+
+	@Test
+	public void testCase1() {
+		new BinarySearchAlgorithm();
+		Assertions.assertEquals(BinarySearchAlgorithm.binarySearch(new int[] {0, 1, 21, 33, 45, 45, 61, 71, 72, 73}, 33), 3);
+	}
+	
+}
