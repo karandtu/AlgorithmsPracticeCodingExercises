@@ -1,3 +1,3 @@
 # AlgorithmsPracticeCodingExercises
 
-Code Preparations for Amazon,Google,Apple,Netflix,Meta.(MAANG).
+My coding preparations for Amazon,Google,Apple,Netflix,Meta.(MAANG).
