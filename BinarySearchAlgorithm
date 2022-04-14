@@ -1,0 +1,22 @@
+package com.karandtu.codelover;
+
+public class BinarySearchAlgorithm {
+
+	public static int binarySearch(int[] array, int target) {
+		
+		return binarySearch(array, target, 0, array.length-1);
+	}
+
+	private static int binarySearch(int[] array, int target, int lowIndex, int highIndex) {
+		int middleElement = (lowIndex+highIndex)/2;
+		if(target == middleElement) {
+			return middleElement;
+		}
+		if(target == middleElement) {
+			return middleElement;
+		}else if(target < middleElement) {
+			return binarySearch(array, target, lowIndex, middleElement-1);
+		}else {
+			return binarySearch(array, target, middleElement+1, highIndex);
+	    }
+	}
